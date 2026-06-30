@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111315;
+    color: #FEF7EE;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.marco_principal {
+    background-color: #1B1D1F;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 60px 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.encabezado h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+
+}
+
+.encabezado p {
+    color:  #6F757C;
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+    font-size: 0.95rem;
+    line-height: 1.5;
+
+}
+
+.fil_bot {
+    margin-bottom: 40px;
+}
+
+.bot {
+
+    background: transparent;
+    border: none;
+    color: #FEF7EE;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 0 5px;
+    font-weight: 600;
+
+}
+
+.bot_click {
+    background: transparent;
+    border: none;
+    color: #FEF7EE;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 0 5px;
+    font-weight: 600;
+}
+
+.bot.active {
+
+    background-color: #6F757C;
+
+}
+
+.bot_click.active {
+    background-color: #6F757C;
+}
+
+.cafe_grill {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 40px 30px;
+}
+
+.cafe_card {
+    position: relative;
+    text-align: left;
+}
+
+.cafe_img {
+    height: 200px;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.insig_pop {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: #F6C761;
+    color:#111315;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+.cafe_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0 8px 0;
+}
+
+.cafe_nombre {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+.cafe_precio {
+    background-color: #BEE3CC;
+    color: #111315;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 4px 8px;
+    border-radius: 4px;
+
+}
+
+.cafe_pie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.cal_box {
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.votar {
+    color: #6F757C;
+}
+
+.stock {
+    color: #ED735D;
+    font-weight: 700;
+}
